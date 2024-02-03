@@ -4,7 +4,7 @@ function SmallLinkBox({ title, link }: { title: string; link: string }) {
   return (
     <>
       <div className='md:flex hidden justify-between items-center rounded-xl p-4 px-8 bg-[#131320] h-[75px] border-2 border-[#E2E1E4]'>
-        <h1 className='text-[#c0bfd8] satoshi-bold text-xl'>{title}</h1>
+        <h3 className='text-[#c0bfd8] satoshi-bold text-xl'>{title}</h3>
         <a
           href={link}
           target='_blank'
@@ -14,7 +14,7 @@ function SmallLinkBox({ title, link }: { title: string; link: string }) {
         </a>
       </div>
       <div className='flex md:hidden justify-between items-center rounded-xl p-4 px-8 bg-[#131320] h-[75px] border-2 border-[#E2E1E4]'>
-        <h1 className='text-[#c0bfd8] satoshi-bold text-lg'>{title}</h1>
+        <h3 className='text-[#c0bfd8] satoshi-bold text-lg'>{title}</h3>
         <a
           href={link}
           target='_blank'
