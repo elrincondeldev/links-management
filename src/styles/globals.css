@@ -16,18 +16,68 @@
   }
 }
 
-body {
+html {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(31deg, #110f1b 0%, #1f2b45 99.52%);
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  padding-top: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+}
+
+.background-blurness {
+  background: #553354;
+  filter: blur(271.79998779296875px);
+}
+
+.custom-button {
+  background: linear-gradient(90deg, #231e8b 1.7%, #463edf 99.82%);
+}
+
+.custom-button-hover {
+  background: linear-gradient(90deg, #7b7a92 1.7%, #463edf 99.82%) !important;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('/fonts/Satoshi-Regular.ttf');
+}
+
+.satoshi-regular {
+  font-family: Satoshi-Regular;
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('/fonts/Satoshi-Bold.ttf');
+}
+
+.satoshi-bold {
+  font-family: Satoshi-Bold;
+}
+
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('/fonts/Satoshi-Black.ttf');
+}
+
+.satoshi-black {
+  font-family: Satoshi-Black;
 }
