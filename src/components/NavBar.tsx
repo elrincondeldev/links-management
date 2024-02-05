@@ -12,7 +12,7 @@ function NavBar() {
           height='200'
           className='rounded-[200px]'
         />
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-col gap-3'> 
           <h1 className='satoshi-black text-5xl'>Aquí Jose 👋🏻</h1>
           <p className='satoshi-regular text-xl'>
             Desarrollador Fullstack y creador de contenido.

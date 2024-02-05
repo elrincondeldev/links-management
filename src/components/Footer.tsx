@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <div className='md:flex hidden justify-center footer w-[700px] text-center mb-5 py-2 text-white'>
+      <div className='md:flex hidden justify-center w-[700px] text-center mb-5 py-2 text-white'>
         <p>
           Designed by{' '}
           <a
@@ -21,7 +21,7 @@ function Footer() {
           </a>
         </p>
       </div>
-      <div className='flex md:hidden w-[80%] footer text-center mb-5 py-2 text-white'>
+      <div className='flex md:hidden footer text-center mb-5 py-2 text-white'>
         <p>
           Designed by{' '}
           <a

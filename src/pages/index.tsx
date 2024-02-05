@@ -7,88 +7,91 @@ import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <>
-      <main className='md:flex hidden flex-col m-auto gap-10 max-w-[700px] text-white'>
-        <NavBar />
-        <section>
-          <p className='satoshi-regular text-lg mb-2'>Social Links</p>
-          <SocialBox />
-        </section>
-        {/* <section>
+      <div className='md:flex hidden flex-col m-auto gap-10 max-w-[700px] text-white h-screen'>
+        <main className='md:flex flex-col m-auto gap-10 max-w-[700px] text-white'>
+          <NavBar />
+          <section>
+            <p className='satoshi-regular text-lg mb-2'>Social Links</p>
+            <SocialBox />
+          </section>
+          {/* <section>
         <p className='satoshi-regular text-lg mb-2'>Mi Newsletter</p>
         <LinkBox
           title='¡La respuesta a todas tus preguntas cada lunes!'
           buttonText='Suscríbete Gratis'
         />
       </section> */}
-        <section>
-          <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
-          <LinkBox
-            title='Aquí podrás encontrar un poco más de información sobre mi :)'
-            buttonText='¡Échale un vistazo!'
-            link='https://elrincondeldev.com/about'
-          />
-        </section>
-        <section>
-          <p className='satoshi-regular text-lg mb-2'>CodeCrafters</p>
-          <LinkBox
-            title='Proyectos que van mucho más allá de lo básico'
-            buttonText='Más información'
-            link='https://app.codecrafters.io/join?via=jmontes33'
-          />
-        </section>
-        <section className='flex flex-col'>
-          <p className='satoshi-regular text-lg mb-2'>Otros links</p>
-          <div className='flex flex-col gap-5'>
-            <SmallLinkBox
-              title='Roadmaps detallados para desarrolladores'
-              link='https://roadmap.sh/'
+          <section>
+            <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
+            <LinkBox
+              title='Aquí podrás encontrar un poco más de información sobre mi :)'
+              buttonText='¡Échale un vistazo!'
+              link='https://elrincondeldev.com/about'
             />
-          </div>
-        </section>
+          </section>
+          <section>
+            <p className='satoshi-regular text-lg mb-2'>CodeCrafters</p>
+            <LinkBox
+              title='Proyectos que van mucho más allá de lo básico'
+              buttonText='Más información'
+              link='https://app.codecrafters.io/join?via=jmontes33'
+            />
+          </section>
+          <section className='flex flex-col'>
+            <p className='satoshi-regular text-lg mb-2'>Otros links</p>
+            <div className='flex flex-col gap-5'>
+              <SmallLinkBox
+                title='Roadmaps detallados para desarrolladores'
+                link='https://roadmap.sh/'
+              />
+            </div>
+          </section>
+        </main>
         <Footer />
-      </main>
-      <main className='flex md:hidden flex-col gap-10 px-5 text-white'>
-        <NavBar />
-        <section>
-          <p className='satoshi-regular text-lg mb-2'>Social Links</p>
-          <SocialBox />
-        </section>
-        {/* <section>
+      </div>
+      <div className='flex md:hidden flex-col gap-10 px-5 text-white'>
+        <main className='flex md:hidden flex-col gap-10'>
+          <NavBar />
+          <section>
+            <p className='satoshi-regular text-lg mb-2'>Social Links</p>
+            <SocialBox />
+          </section>
+          {/* <section>
         <p className='satoshi-regular text-lg mb-2'>Mi Newsletter</p>
         <LinkBox
           title='¡La respuesta a todas tus preguntas cada lunes!'
           buttonText='Suscríbete Gratis'
         />
       </section> */}
-        <section>
-          <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
-          <LinkBox
-            title='Aquí podrás encontrar un poco más de información sobre mi :)'
-            buttonText='¡Échale un vistazo!'
-            link='https://elrincondeldev.com/about'
-          />
-        </section>
-        <section>
-          <p className='satoshi-regular text-lg mb-2'>CodeCrafters</p>
-          <LinkBox
-            title='Proyectos que van mucho más allá de lo básico'
-            buttonText='Más información'
-            link='https://app.codecrafters.io/join?via=jmontes33'
-          />
-        </section>
-        <section className='flex flex-col mb-10'>
-          <p className='satoshi-regular text-lg mb-2'>Otros links</p>
-          <div className='flex flex-col gap-5'>
-            <SmallLinkBox
-              title='Roadmaps detallados para desarrolladores'
-              link='https://roadmap.sh/'
+          <section>
+            <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
+            <LinkBox
+              title='Aquí podrás encontrar un poco más de información sobre mi :)'
+              buttonText='¡Échale un vistazo!'
+              link='https://elrincondeldev.com/about'
             />
-          </div>
-        </section>
-        <section className='flex justify-center'>
+          </section>
+          <section>
+            <p className='satoshi-regular text-lg mb-2'>CodeCrafters</p>
+            <LinkBox
+              title='Proyectos que van mucho más allá de lo básico'
+              buttonText='Más información'
+              link='https://app.codecrafters.io/join?via=jmontes33'
+            />
+          </section>
+          <section className='flex flex-col mb-10'>
+            <p className='satoshi-regular text-lg mb-2'>Otros links</p>
+            <div className='flex flex-col gap-5'>
+              <SmallLinkBox
+                title='Roadmaps detallados para desarrolladores'
+                link='https://roadmap.sh/'
+              />
+            </div>
+          </section>
+          <section className='flex justify-center'></section>
           <Footer />
-        </section>
-      </main>
+        </main>
+      </div>
     </>
   );
 }
