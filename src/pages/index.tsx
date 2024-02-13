@@ -14,13 +14,16 @@ export default function Home() {
             <p className='satoshi-regular text-lg mb-2'>Social Links</p>
             <SocialBox />
           </section>
-          {/* <section>
-        <p className='satoshi-regular text-lg mb-2'>Mi Newsletter</p>
-        <LinkBox
-          title='¡La respuesta a todas tus preguntas cada lunes!'
-          buttonText='Suscríbete Gratis'
-        />
-      </section> */}
+          <section>
+            <p className='satoshi-regular text-lg mb-2'>
+              Mi último vídeo de YouTube
+            </p>
+            <LinkBox
+              title='Cómo me mantengo motivado como programador'
+              buttonText='Míralo aquí'
+              link='https://linktw.in/LczudD'
+            />
+          </section>
           <section>
             <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
             <LinkBox
@@ -52,32 +55,35 @@ export default function Home() {
       <div className='flex md:hidden flex-col gap-10 px-5 text-white'>
         <main className='flex md:hidden flex-col gap-10'>
           <NavBar />
-          <section>
+          <section className='flex flex-col gap-5'>
             <p className='satoshi-regular text-lg mb-2'>Social Links</p>
             <SocialBox />
-          </section>
-          {/* <section>
-        <p className='satoshi-regular text-lg mb-2'>Mi Newsletter</p>
-        <LinkBox
-          title='¡La respuesta a todas tus preguntas cada lunes!'
-          buttonText='Suscríbete Gratis'
-        />
-      </section> */}
-          <section>
-            <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
-            <LinkBox
-              title='Aquí podrás encontrar un poco más de información sobre mi :)'
-              buttonText='¡Échale un vistazo!'
-              link='https://elrincondeldev.com/about'
-            />
-          </section>
-          <section>
-            <p className='satoshi-regular text-lg mb-2'>CodeCrafters</p>
-            <LinkBox
-              title='Proyectos que van mucho más allá de lo básico'
-              buttonText='Más información'
-              link='https://app.codecrafters.io/join?via=jmontes33'
-            />
+            <section>
+              <p className='satoshi-regular text-lg mb-2'>
+                Mi último vídeo de YouTube
+              </p>
+              <LinkBox
+                title='Cómo me mantengo motivado como programador'
+                buttonText='Míralo aquí'
+                link='https://linktw.in/LczudD'
+              />
+            </section>
+            <section>
+              <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
+              <LinkBox
+                title='Aquí podrás encontrar un poco más de información sobre mi :)'
+                buttonText='¡Échale un vistazo!'
+                link='https://elrincondeldev.com/about'
+              />
+            </section>
+            <section>
+              <p className='satoshi-regular text-lg mb-2'>CodeCrafters</p>
+              <LinkBox
+                title='Proyectos que van mucho más allá de lo básico'
+                buttonText='Más información'
+                link='https://app.codecrafters.io/join?via=jmontes33'
+              />
+            </section>
           </section>
           <section className='flex flex-col mb-10'>
             <p className='satoshi-regular text-lg mb-2'>Otros links</p>

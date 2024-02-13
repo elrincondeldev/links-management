@@ -17,7 +17,7 @@ function LinkBox({
         <p className='text-xl satoshi-regular'>{title}</p>
         <a
           href={link}
-          className='p-2 rounded-lg max-w-[250px] px-10 bg-gradient-to-r from-purple-700 to-blue-500 hover:from-purple-900 hover:to-blue-700 transition-all ease-in-out duration-100 cursor-pointer'
+          className='p-2 rounded-lg min-w-[240px] max-w-[240px] flex justify-center px-10 bg-gradient-to-r from-purple-700 to-blue-500 hover:from-purple-900 hover:to-blue-700 transition-all ease-in-out duration-100 cursor-pointer'
         >
           <button className='text-[#E2E1E4] text-center satoshi-bold text-lg'>
             {buttonText}
@@ -30,9 +30,9 @@ function LinkBox({
         <p className='text-lg text-center satoshi-regular'>{title}</p>
         <a
           href={link}
-          className='p-2 rounded-lg max-w-[250px] px-10 bg-gradient-to-r from-purple-700 to-blue-500 hover:from-purple-900 hover:to-blue-700 transition-all ease-in-out duration-100 cursor-pointer'
+          className='p-2 rounded-lg min-w-[200px] flex items-center justify-center px-10 bg-gradient-to-r from-purple-700 to-blue-500 hover:from-purple-900 hover:to-blue-700 transition-all ease-in-out duration-100 cursor-pointer'
         >
-          <button className='text-[#E2E1E4] text-center satoshi-bold text-md'>
+          <button className='text-[#E2E1E4] text-center satoshi-bold text-md cursor-pointer'>
             {buttonText}
           </button>
         </a>
