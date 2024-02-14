@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <>
-      <div className='md:flex hidden flex-col m-auto gap-10 max-w-[700px] text-white h-screen'>
+      <div className='md:flex hidden flex-col m-auto gap-10 max-w-[700px] text-white h-full'>
         <main className='md:flex flex-col m-auto gap-10 max-w-[700px] text-white'>
           <NavBar />
           <section>
@@ -56,8 +56,10 @@ export default function Home() {
         <main className='flex md:hidden flex-col gap-10'>
           <NavBar />
           <section className='flex flex-col gap-5'>
-            <p className='satoshi-regular text-lg mb-2'>Social Links</p>
-            <SocialBox />
+            <section>
+              <p className='satoshi-regular text-lg mb-2'>Social Links</p>
+              <SocialBox />
+            </section>
             <section>
               <p className='satoshi-regular text-lg mb-2'>
                 Mi último vídeo de YouTube
