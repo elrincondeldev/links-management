@@ -19,9 +19,9 @@ export default function Home() {
               Mi último vídeo de YouTube
             </p>
             <LinkBox
-              title='Cómo me mantengo motivado como programador'
+              title='Mi PROYECTO PERSONAL más grande como PROGRAMADOR'
               buttonText='Míralo aquí'
-              link='https://linktw.in/LczudD'
+              link='https://infiniteurl.com/hackathon'
             />
           </section>
           <section>
@@ -65,9 +65,9 @@ export default function Home() {
                 Mi último vídeo de YouTube
               </p>
               <LinkBox
-                title='Cómo me mantengo motivado como programador'
+                title='Mi PROYECTO PERSONAL más grande como PROGRAMADOR'
                 buttonText='Míralo aquí'
-                link='https://linktw.in/LczudD'
+                link='https://infiniteurl.com/hackathon'
               />
             </section>
             <section>
