@@ -25,11 +25,11 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
+            <p className='satoshi-regular text-lg mb-2'>LABASAD</p>
             <LinkBox
-              title='Aquí podrás encontrar un poco más de información sobre mi :)'
+              title='Máster Online en Programación para Creativos de LABASAD'
               buttonText='¡Échale un vistazo!'
-              link='https://elrincondeldev.com/about'
+              link='https://hubs.ly/Q02kHdR40'
             />
           </section>
           <section>
@@ -71,11 +71,11 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className='satoshi-regular text-lg mb-2'>Mi Portfolio</p>
+              <p className='satoshi-regular text-lg mb-2'>LABASAD</p>
               <LinkBox
                 title='Aquí podrás encontrar un poco más de información sobre mi :)'
-                buttonText='¡Échale un vistazo!'
-                link='https://elrincondeldev.com/about'
+                buttonText='Más información'
+                link='https://hubs.ly/Q02kHdR40'
               />
             </section>
             <section>
