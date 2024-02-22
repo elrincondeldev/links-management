@@ -15,13 +15,11 @@ export default function Home() {
             <SocialBox />
           </section>
           <section>
-            <p className='satoshi-regular text-lg mb-2'>
-              Mi último vídeo de YouTube
-            </p>
+            <p className='satoshi-regular text-lg mb-2'>Nuclio</p>
             <LinkBox
-              title='Mi PROYECTO PERSONAL más grande como PROGRAMADOR'
-              buttonText='Míralo aquí'
-              link='https://infiniteurl.com/hackathon'
+              title='Nuclio Digital School'
+              buttonText='Más información'
+              link='https://hubs.li/Q02cBKH90'
             />
           </section>
           <section>
@@ -61,13 +59,11 @@ export default function Home() {
               <SocialBox />
             </section>
             <section>
-              <p className='satoshi-regular text-lg mb-2'>
-                Mi último vídeo de YouTube
-              </p>
+              <p className='satoshi-regular text-lg mb-2'>Nuclio</p>
               <LinkBox
-                title='Mi PROYECTO PERSONAL más grande como PROGRAMADOR'
-                buttonText='Míralo aquí'
-                link='https://infiniteurl.com/hackathon'
+                title='Nuclio Digital School'
+                buttonText='Más información'
+                link='https://hubs.li/Q02cBKH90'
               />
             </section>
             <section>
