@@ -21,7 +21,7 @@ export default function Home() {
             <LinkBox
               title='ASÍ ORGANIZO mis PROYECTOS como PROGRAMADOR'
               buttonText='Ver vídeo'
-              link='https://infiniteurl.com/organización'
+              link='https://infiniteurl.com/9P0vS-d_'
             />
           </section>
           <section>
@@ -67,7 +67,7 @@ export default function Home() {
               <LinkBox
                 title='ASÍ ORGANIZO mis PROYECTOS como PROGRAMADOR'
                 buttonText='Ver vídeo'
-                link='https://infiniteurl.com/organización'
+                link='https://infiniteurl.com/9P0vS-d_'
               />
             </section>
             <section>
