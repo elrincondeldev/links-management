@@ -21,7 +21,7 @@ function Footer() {
           </a>
         </p>
       </div>
-      <div className='flex md:hidden footer text-center mb-5 py-2 text-white'>
+      <div className='flex md:hidden footer text-center mt-auto mb-5 py-2 text-white'>
         <p>
           Designed by{' '}
           <a

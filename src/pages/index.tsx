@@ -15,19 +15,13 @@ export default function Home() {
             <SocialBox />
           </section>
           <section>
-            <p className='satoshi-regular text-lg mb-2'>Nuclio</p>
+            <p className='satoshi-regular text-lg mb-2'>
+              Último vídeo de YouTube
+            </p>
             <LinkBox
-              title='Nuclio Digital School'
-              buttonText='Más información'
-              link='https://hubs.li/Q02cBKH90'
-            />
-          </section>
-          <section>
-            <p className='satoshi-regular text-lg mb-2'>LABASAD</p>
-            <LinkBox
-              title='Máster Online en Programación para Creativos de LABASAD'
-              buttonText='¡Échale un vistazo!'
-              link='https://hubs.ly/Q02kHdR40'
+              title='ASÍ ORGANIZO mis PROYECTOS como PROGRAMADOR'
+              buttonText='Ver vídeo'
+              link='https://infiniteurl.com/organización'
             />
           </section>
           <section>
@@ -41,16 +35,24 @@ export default function Home() {
           <section className='flex flex-col'>
             <p className='satoshi-regular text-lg mb-2'>Otros links</p>
             <div className='flex flex-col gap-5'>
-              <SmallLinkBox
-                title='Roadmaps detallados para desarrolladores'
-                link='https://roadmap.sh/'
-              />
+              <div className='flex flex-col gap-5'>
+                <SmallLinkBox
+                  title='Máster en Programación para Creativos de LABASAD'
+                  link='https://hubs.ly/Q02kHdR40'
+                />
+              </div>
+              <div className='flex flex-col gap-5'>
+                <SmallLinkBox
+                  title='Roadmaps detallados para desarrolladores'
+                  link='https://roadmap.sh/'
+                />
+              </div>
             </div>
           </section>
         </main>
         <Footer />
       </div>
-      <div className='flex md:hidden flex-col gap-10 px-5 text-white'>
+      <div className='flex md:hidden flex-col px-5 text-white'>
         <main className='flex md:hidden flex-col gap-10'>
           <NavBar />
           <section className='flex flex-col gap-5'>
@@ -59,19 +61,13 @@ export default function Home() {
               <SocialBox />
             </section>
             <section>
-              <p className='satoshi-regular text-lg mb-2'>Nuclio</p>
+              <p className='satoshi-regular text-lg mb-2'>
+                Último vídeo de YouTube
+              </p>
               <LinkBox
-                title='Nuclio Digital School'
-                buttonText='Más información'
-                link='https://hubs.li/Q02cBKH90'
-              />
-            </section>
-            <section>
-              <p className='satoshi-regular text-lg mb-2'>LABASAD</p>
-              <LinkBox
-                title='Aquí podrás encontrar un poco más de información sobre mi :)'
-                buttonText='Más información'
-                link='https://hubs.ly/Q02kHdR40'
+                title='ASÍ ORGANIZO mis PROYECTOS como PROGRAMADOR'
+                buttonText='Ver vídeo'
+                link='https://infiniteurl.com/organización'
               />
             </section>
             <section>
@@ -86,15 +82,23 @@ export default function Home() {
           <section className='flex flex-col mb-10'>
             <p className='satoshi-regular text-lg mb-2'>Otros links</p>
             <div className='flex flex-col gap-5'>
-              <SmallLinkBox
-                title='Roadmaps detallados para desarrolladores'
-                link='https://roadmap.sh/'
-              />
+              <div className='flex flex-col gap-5'>
+                <SmallLinkBox
+                  title='Máster Online en Programación para Creativos de LABASAD'
+                  link='https://hubs.ly/Q02kHdR40'
+                />
+              </div>
+              <div className='flex flex-col gap-5'>
+                <SmallLinkBox
+                  title='Roadmaps detallados para desarrolladores'
+                  link='https://roadmap.sh/'
+                />
+              </div>
             </div>
           </section>
           <section className='flex justify-center'></section>
-          <Footer />
         </main>
+        <Footer />
       </div>
     </>
   );
