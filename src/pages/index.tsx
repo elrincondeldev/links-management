@@ -19,9 +19,9 @@ export default function Home() {
               Último vídeo de YouTube
             </p>
             <LinkBox
-              title='ASÍ ORGANIZO mis PROYECTOS como PROGRAMADOR'
+              title='Los TUTORIALES de PROGRAMACIÓN te están LIMITANDO'
               buttonText='Ver vídeo'
-              link='https://infiniteurl.com/pYQPg9_6'
+              link='https://infiniteurl.com/tutoriales'
             />
           </section>
           <section>
@@ -65,9 +65,9 @@ export default function Home() {
                 Último vídeo de YouTube
               </p>
               <LinkBox
-                title='ASÍ ORGANIZO mis PROYECTOS como PROGRAMADOR'
+                title='Los TUTORIALES de PROGRAMACIÓN te están LIMITANDO'
                 buttonText='Ver vídeo'
-                link='https://infiniteurl.com/pYQPg9_6'
+                link='https://infiniteurl.com/tutoriales'
               />
             </section>
             <section>
