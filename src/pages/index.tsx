@@ -16,12 +16,12 @@ export default function Home() {
           </section>
           <section>
             <p className='satoshi-regular text-lg mb-2'>
-              Último vídeo de YouTube
+              Participa en mi Hackathon
             </p>
             <LinkBox
-              title='Los TUTORIALES de PROGRAMACIÓN te están LIMITANDO'
-              buttonText='Ver vídeo'
-              link='https://infiniteurl.com/tutoriales'
+              title='La Hackathon Del Dev'
+              buttonText='Ir a la web'
+              link='https://www.lahackathondeldev.com/'
             />
           </section>
           <section>
@@ -62,12 +62,12 @@ export default function Home() {
             </section>
             <section>
               <p className='satoshi-regular text-lg mb-2'>
-                Último vídeo de YouTube
+                Participa en mi Hackathon
               </p>
               <LinkBox
-                title='Los TUTORIALES de PROGRAMACIÓN te están LIMITANDO'
-                buttonText='Ver vídeo'
-                link='https://infiniteurl.com/tutoriales'
+                title='La Hackathon Del Dev'
+                buttonText='Ir a la web'
+                link='https://www.lahackathondeldev.com/'
               />
             </section>
             <section>
