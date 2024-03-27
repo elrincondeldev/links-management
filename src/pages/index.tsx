@@ -29,17 +29,25 @@ export default function Home() {
               Último vídeo de YouTube
             </p>
             <LinkBox
-              title="Mi Mayor Proyecto Personal"
+              title="Mi experiencia trabajando 1 año como programador"
               buttonText="Ver vídeo"
-              link="https://infiniteurl.com/la-hackathon-del-dev"
+              link="https://infiniteurl.com/programador"
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">CodeCrafters</p>
+            <p className="satoshi-regular text-lg mb-2">Magical AI</p>
             <LinkBox
-              title="Proyectos que van mucho más allá de lo básico"
+              title="Ahorra tiempo en tus tareas diarias"
               buttonText="Más información"
-              link="https://app.codecrafters.io/join?via=jmontes33"
+              link="http://getmagical.com/elrincondeldev"
+            />
+          </section>
+          <section>
+            <p className="satoshi-regular text-lg mb-2">Nuwe</p>
+            <LinkBox
+              title="Consigue trabajo con Nuwe"
+              buttonText="Más información"
+              link="https://bit.ly/JobOffersNUWE"
             />
           </section>
           <section className="flex flex-col">
@@ -85,17 +93,25 @@ export default function Home() {
                 Último vídeo de YouTube
               </p>
               <LinkBox
-                title="Mi Mayor Proyecto Personal"
+                title="Mi experiencia trabajando 1 año como programador"
                 buttonText="Ver vídeo"
-                link="https://infiniteurl.com/la-hackathon-del-dev"
+                link="https://infiniteurl.com/programador"
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">CodeCrafters</p>
+              <p className="satoshi-regular text-lg mb-2">Magical AI</p>
               <LinkBox
-                title="Proyectos que van mucho más allá de lo básico"
+                title="Ahorra tiempo en tus tareas diarias"
                 buttonText="Más información"
-                link="https://app.codecrafters.io/join?via=jmontes33"
+                link="http://getmagical.com/elrincondeldev"
+              />
+            </section>
+            <section>
+              <p className="satoshi-regular text-lg mb-2">Nuwe</p>
+              <LinkBox
+                title="Consigue trabajo con Nuwe"
+                buttonText="Más información"
+                link="https://bit.ly/JobOffersNUWE"
               />
             </section>
           </section>
