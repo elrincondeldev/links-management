@@ -39,7 +39,7 @@ export default function Home() {
             <LinkBox
               title="Descuento de 1800€ en todos sus bootcamps"
               buttonText="Más información"
-              link="https://infiniteurl.com/4geeks-academy"
+              link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
             />
           </section>
           <section>
@@ -103,7 +103,7 @@ export default function Home() {
               <LinkBox
                 title="Descuento de 1800€ en cualquiera de sus bootcamps"
                 buttonText="Más información"
-                link="https://infiniteurl.com/4geeks-academy"
+                link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
               />
             </section>
             <section>
