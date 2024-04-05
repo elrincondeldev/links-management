@@ -35,11 +35,11 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">Magical AI</p>
+            <p className="satoshi-regular text-lg mb-2">4Geeks Academy</p>
             <LinkBox
-              title="Ahorra tiempo en tus tareas diarias"
+              title="Descuento de 1800€ en todos sus bootcamps"
               buttonText="Más información"
-              link="http://getmagical.com/elrincondeldev"
+              link="https://infiniteurl.com/4geeks-academy"
             />
           </section>
           <section>
@@ -99,11 +99,11 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">Magical AI</p>
+              <p className="satoshi-regular text-lg mb-2">4Geeks Academy</p>
               <LinkBox
-                title="Ahorra tiempo en tus tareas diarias"
+                title="Descuento de 1800€ en cualquiera de sus bootcamps"
                 buttonText="Más información"
-                link="http://getmagical.com/elrincondeldev"
+                link="https://infiniteurl.com/4geeks-academy"
               />
             </section>
             <section>
