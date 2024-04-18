@@ -16,6 +16,16 @@ export default function Home() {
           </section>
           <section>
             <p className="satoshi-regular text-lg mb-2">
+              Mejora el flujo de tus Pull Request
+            </p>
+            <LinkBox
+              title="Pullpo - Herramienta para mejorar el flujo de trabajo en tu equipo"
+              buttonText="Más información"
+              link="https://www.producthunt.com/posts/pullpo-io-2"
+            />
+          </section>
+          <section>
+            <p className="satoshi-regular text-lg mb-2">
               Participa en mi Hackathon
             </p>
             <LinkBox
@@ -25,29 +35,11 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Último vídeo de YouTube
-            </p>
-            <LinkBox
-              title="Mi experiencia trabajando 1 año como programador"
-              buttonText="Ver vídeo"
-              link="https://infiniteurl.com/programador"
-            />
-          </section>
-          <section>
             <p className="satoshi-regular text-lg mb-2">4Geeks Academy</p>
             <LinkBox
               title="Descuento de 1800€ en todos sus bootcamps"
               buttonText="Más información"
               link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">Nuwe</p>
-            <LinkBox
-              title="Consigue trabajo con Nuwe"
-              buttonText="Más información"
-              link="https://bit.ly/JobOffersNUWE"
             />
           </section>
           <section className="flex flex-col">
@@ -80,6 +72,16 @@ export default function Home() {
             </section>
             <section>
               <p className="satoshi-regular text-lg mb-2">
+                Mejora el flujo de tus Pull Request
+              </p>
+              <LinkBox
+                title="Pullpo - Herramienta para mejorar el flujo de trabajo en tu equipo"
+                buttonText="Más información"
+                link="https://www.producthunt.com/posts/pullpo-io-2"
+              />
+            </section>
+            <section>
+              <p className="satoshi-regular text-lg mb-2">
                 Participa en mi Hackathon
               </p>
               <LinkBox
@@ -89,29 +91,11 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">
-                Último vídeo de YouTube
-              </p>
-              <LinkBox
-                title="Mi experiencia trabajando 1 año como programador"
-                buttonText="Ver vídeo"
-                link="https://infiniteurl.com/programador"
-              />
-            </section>
-            <section>
               <p className="satoshi-regular text-lg mb-2">4Geeks Academy</p>
               <LinkBox
                 title="Descuento de 1800€ en cualquiera de sus bootcamps"
                 buttonText="Más información"
                 link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
-              />
-            </section>
-            <section>
-              <p className="satoshi-regular text-lg mb-2">Nuwe</p>
-              <LinkBox
-                title="Consigue trabajo con Nuwe"
-                buttonText="Más información"
-                link="https://bit.ly/JobOffersNUWE"
               />
             </section>
           </section>
