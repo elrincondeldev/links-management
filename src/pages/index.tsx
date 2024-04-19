@@ -15,13 +15,11 @@ export default function Home() {
             <SocialBox />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Mejora el flujo de tus Pull Request
-            </p>
+            <p className="satoshi-regular text-lg mb-2">Daily.dev</p>
             <LinkBox
-              title="Pullpo - Herramienta para mejorar el flujo de trabajo en tu equipo"
+              title="Newsletter para mantenerte informado sobre programación"
               buttonText="Más información"
-              link="https://www.producthunt.com/posts/pullpo-io-2"
+              link="https://daily.dev/"
             />
           </section>
           <section>
@@ -71,13 +69,11 @@ export default function Home() {
               <SocialBox />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">
-                Mejora el flujo de tus Pull Request
-              </p>
+              <p className="satoshi-regular text-lg mb-2">Daily.dev</p>
               <LinkBox
-                title="Pullpo - Herramienta para mejorar el flujo de trabajo en tu equipo"
+                title="Newsletter para mantenerte informado sobre programación"
                 buttonText="Más información"
-                link="https://www.producthunt.com/posts/pullpo-io-2"
+                link="https://daily.dev/"
               />
             </section>
             <section>
