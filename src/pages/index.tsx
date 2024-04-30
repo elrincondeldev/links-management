@@ -7,48 +7,26 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <div className="md:flex hidden flex-col m-auto gap-10 max-w-[700px] text-white h-full">
-        <main className="md:flex flex-col m-auto gap-10 max-w-[700px] text-white">
+      <div className="md:flex hidden flex-col m-auto gap-10 max-w-[700px] text-white min-h-screen">
+        <main className="md:flex flex-col mx-auto gap-10 max-w-[700px] text-white">
           <NavBar />
           <section>
             <p className="satoshi-regular text-lg mb-2">Social Links</p>
             <SocialBox />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">Daily.dev</p>
-            <LinkBox
-              title="Newsletter para mantenerte informado sobre programación"
-              buttonText="Más información"
-              link="https://daily.dev/"
-            />
-          </section>
-          <section>
             <p className="satoshi-regular text-lg mb-2">
-              Participa en mi Hackathon
+              Charla en Nuclio Digital School
             </p>
             <LinkBox
-              title="La Hackathon Del Dev"
-              buttonText="Ir a la web"
-              link="https://www.lahackathondeldev.com/"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">4Geeks Academy</p>
-            <LinkBox
-              title="Descuento de 1800€ en todos sus bootcamps"
+              title="El 15 de mayo daré una charla junto a r2d2.Coder en Nuclio Digital School"
               buttonText="Más información"
-              link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
+              link="https://www.crowdcast.io/c/-de-bits-a-insights"
             />
           </section>
           <section className="flex flex-col">
             <p className="satoshi-regular text-lg mb-2">Otros links</p>
             <div className="flex flex-col gap-5">
-              <div className="flex flex-col gap-5">
-                <SmallLinkBox
-                  title="Máster en Programación para Creativos de LABASAD"
-                  link="https://hubs.ly/Q02kHdR40"
-                />
-              </div>
               <div className="flex flex-col gap-5">
                 <SmallLinkBox
                   title="Roadmaps detallados para desarrolladores"
@@ -58,9 +36,8 @@ export default function Home() {
             </div>
           </section>
         </main>
-        <Footer />
       </div>
-      <div className="flex md:hidden flex-col px-5 text-white">
+      <div className="flex md:hidden flex-col px-5 text-white min-h-screen">
         <main className="flex md:hidden flex-col gap-10">
           <NavBar />
           <section className="flex flex-col gap-5">
@@ -69,41 +46,19 @@ export default function Home() {
               <SocialBox />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">Daily.dev</p>
-              <LinkBox
-                title="Newsletter para mantenerte informado sobre programación"
-                buttonText="Más información"
-                link="https://daily.dev/"
-              />
-            </section>
-            <section>
               <p className="satoshi-regular text-lg mb-2">
-                Participa en mi Hackathon
+                Charla en Nuclio Digital School
               </p>
               <LinkBox
-                title="La Hackathon Del Dev"
-                buttonText="Ir a la web"
-                link="https://www.lahackathondeldev.com/"
-              />
-            </section>
-            <section>
-              <p className="satoshi-regular text-lg mb-2">4Geeks Academy</p>
-              <LinkBox
-                title="Descuento de 1800€ en cualquiera de sus bootcamps"
+                title="El 15 de mayo daré una charla junto a r2d2.coder en Nuclio Digital School"
                 buttonText="Más información"
-                link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
+                link="https://www.crowdcast.io/c/-de-bits-a-insights"
               />
             </section>
           </section>
           <section className="flex flex-col mb-10">
             <p className="satoshi-regular text-lg mb-2">Otros links</p>
             <div className="flex flex-col gap-5">
-              <div className="flex flex-col gap-5">
-                <SmallLinkBox
-                  title="Máster Online en Programación para Creativos de LABASAD"
-                  link="https://hubs.ly/Q02kHdR40"
-                />
-              </div>
               <div className="flex flex-col gap-5">
                 <SmallLinkBox
                   title="Roadmaps detallados para desarrolladores"
@@ -114,8 +69,8 @@ export default function Home() {
           </section>
           <section className="flex justify-center"></section>
         </main>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

@@ -14,7 +14,7 @@ function LinkBox({
       <div
         className={`md:flex hidden flex-col items-center gap-5 h-[150px] rounded-xl p-5 bg-[#131320] border-2 border-[#E2E1E4]`}
       >
-        <p className='text-xl satoshi-regular'>{title}</p>
+        <p className='text-xl text-center satoshi-regular'>{title}</p>
         <a
           href={link}
           target='_blank'
