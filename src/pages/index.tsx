@@ -15,6 +15,14 @@ export default function Home() {
             <SocialBox />
           </section>
           <section>
+            <p className="satoshi-regular text-lg mb-2">Tu próximo proyecto</p>
+            <LinkBox
+              title="Una aplicación que genera todos los días nuevas ideas de proyectos."
+              buttonText="Visitar web"
+              link="https://dub.sh/BfqCUOI"
+            />
+          </section>
+          <section>
             <p className="satoshi-regular text-lg mb-2">
               Charla en Nuclio Digital School
             </p>
@@ -44,6 +52,16 @@ export default function Home() {
             <section>
               <p className="satoshi-regular text-lg mb-2">Social Links</p>
               <SocialBox />
+            </section>
+            <section>
+              <p className="satoshi-regular text-lg mb-2">
+                Tu próximo proyecto
+              </p>
+              <LinkBox
+                title="Una aplicación que genera todos los días nuevas ideas de proyectos."
+                buttonText="Visitar web"
+                link="https://dub.sh/BfqCUOI"
+              />
             </section>
             <section>
               <p className="satoshi-regular text-lg mb-2">
