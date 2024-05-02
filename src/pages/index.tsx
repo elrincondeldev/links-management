@@ -21,7 +21,7 @@ export default function Home() {
             <LinkBox
               title="El 15 de mayo daré una charla junto a r2d2.Coder en Nuclio Digital School"
               buttonText="Más información"
-              link="https://www.crowdcast.io/c/-de-bits-a-insights"
+              link="https://dub.sh/j3qFisy"
             />
           </section>
           <section className="flex flex-col">
@@ -52,7 +52,7 @@ export default function Home() {
               <LinkBox
                 title="El 15 de mayo daré una charla junto a r2d2.coder en Nuclio Digital School"
                 buttonText="Más información"
-                link="https://www.crowdcast.io/c/-de-bits-a-insights"
+                link="https://dub.sh/j3qFisy"
               />
             </section>
           </section>
