@@ -15,11 +15,11 @@ export default function Home() {
             <SocialBox />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">Tu próximo proyecto</p>
+            <p className="satoshi-regular text-lg mb-2">Lattics</p>
             <LinkBox
-              title="Una aplicación que genera todos los días nuevas ideas de proyectos."
+              title="Crea apuntes y mapas mentales con los que podrás estudiar de forma más eficiente."
               buttonText="Visitar web"
-              link="https://dub.sh/BfqCUOI"
+              link="https://dub.sh/VExuzLh"
             />
           </section>
           <section>
@@ -54,13 +54,11 @@ export default function Home() {
               <SocialBox />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">
-                Tu próximo proyecto
-              </p>
+              <p className="satoshi-regular text-lg mb-2">Lattics</p>
               <LinkBox
-                title="Una aplicación que genera todos los días nuevas ideas de proyectos."
+                title="Crea apuntes y mapas mentales con los que podrás estudiar de forma más eficiente."
                 buttonText="Visitar web"
-                link="https://dub.sh/BfqCUOI"
+                link="https://dub.sh/VExuzLh"
               />
             </section>
             <section>
