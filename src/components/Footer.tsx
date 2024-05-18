@@ -3,7 +3,7 @@ function Footer() {
     <>
       <div className="w-full text-center py-5 text-cwhite font-bold">
         <p>
-          Developed by{" "}
+          Designed and developed by{" "}
           <a
             className="font-bold"
             href="https://www.instagram.com/elrincondeldev/"
