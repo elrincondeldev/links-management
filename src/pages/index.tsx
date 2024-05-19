@@ -15,6 +15,16 @@ export default function Home() {
             <SocialBox />
           </section>
           <section>
+            <p className="satoshi-regular text-lg mb-2">
+              Nuclio Digital School
+            </p>
+            <LinkBox
+              title="Aprende a programar de la mano de los mejores."
+              buttonText="Visitar web"
+              link="https://nuclio.school/"
+            />
+          </section>
+          <section>
             <p className="satoshi-regular text-lg mb-2">Lattics</p>
             <LinkBox
               title="Crea apuntes y mapas mentales con los que podrás estudiar de forma más eficiente."
