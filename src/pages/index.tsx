@@ -15,21 +15,11 @@ export default function Home() {
             <SocialBox />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Nuclio Digital School
-            </p>
+            <p className="satoshi-regular text-lg mb-2">Cover Agent</p>
             <LinkBox
-              title="Aprende a programar de la mano de los mejores."
+              title="Aumenta la covertura de tus test en cuestión de segundos."
               buttonText="Visitar web"
-              link="https://nuclio.school/"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">Lattics</p>
-            <LinkBox
-              title="Crea apuntes y mapas mentales con los que podrás estudiar de forma más eficiente."
-              buttonText="Visitar web"
-              link="https://dub.sh/VExuzLh"
+              link="https://github.com/Codium-ai/cover-agent"
             />
           </section>
           <section>
@@ -64,11 +54,11 @@ export default function Home() {
               <SocialBox />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">Lattics</p>
+              <p className="satoshi-regular text-lg mb-2">Cover Agent</p>
               <LinkBox
-                title="Crea apuntes y mapas mentales con los que podrás estudiar de forma más eficiente."
+                title="Aumenta la covertura de tus test en cuestión de segundos."
                 buttonText="Visitar web"
-                link="https://dub.sh/VExuzLh"
+                link="https://github.com/Codium-ai/cover-agent"
               />
             </section>
             <section>
