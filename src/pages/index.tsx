@@ -15,6 +15,16 @@ export default function Home() {
             <SocialBox />
           </section>
           <section>
+            <p className="satoshi-regular text-lg mb-2">
+              Nuclio Digital School
+            </p>
+            <LinkBox
+              title="Aprende a programar de la mano de los mejores"
+              buttonText="Visitar web"
+              link="https://nuclio.school/"
+            />
+          </section>
+          <section>
             <p className="satoshi-regular text-lg mb-2">Cover Agent</p>
             <LinkBox
               title="Aumenta la covertura de tus test en cuestión de segundos."
