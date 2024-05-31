@@ -16,20 +16,12 @@ export default function Home() {
           </section>
           <section>
             <p className="satoshi-regular text-lg mb-2">
-              Nuclio Digital School
+              Último vídeo de YouTube
             </p>
             <LinkBox
-              title="Aprende a programar de la mano de los mejores"
-              buttonText="Visitar web"
-              link="https://nuclio.school/"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">Cover Agent</p>
-            <LinkBox
-              title="Aumenta la covertura de tus test en cuestión de segundos."
-              buttonText="Visitar web"
-              link="https://github.com/Codium-ai/cover-agent"
+              title="¿Cómo empezar en la programación? ¿Síndrome del impostor?"
+              buttonText="Ver vídeo"
+              link="https://dub.sh/0hEFuD4"
             />
           </section>
           <section>
@@ -64,21 +56,13 @@ export default function Home() {
               <SocialBox />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">Cover Agent</p>
-              <LinkBox
-                title="Aumenta la covertura de tus test en cuestión de segundos."
-                buttonText="Visitar web"
-                link="https://github.com/Codium-ai/cover-agent"
-              />
-            </section>
-            <section>
               <p className="satoshi-regular text-lg mb-2">
-                Charla en Nuclio Digital School
+                Último vídeo de YouTube
               </p>
               <LinkBox
-                title="El 15 de mayo daré una charla junto a r2d2.coder en Nuclio Digital School"
-                buttonText="Más información"
-                link="https://dub.sh/j3qFisy"
+                title="¿Cómo empezar en la programación? ¿Síndrome del impostor?"
+                buttonText="Ver vídeo"
+                link="https://dub.sh/0hEFuD4"
               />
             </section>
           </section>
