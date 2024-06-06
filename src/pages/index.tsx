@@ -16,30 +16,12 @@ export default function Home() {
           </section>
           <section>
             <p className="satoshi-regular text-lg mb-2">
-              Nuclio Digital School
+              Mi Newsletter Semanal
             </p>
             <LinkBox
-              title="Aprende a programar de la mano de los mejores"
+              title="Comparto mi aprendizaje y experiencia como desarrollador Full Stack, así como tips y herramientas que te harán más productivo en tu día a día."
               buttonText="Visitar web"
-              link="https://nuclio.school/"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">Cover Agent</p>
-            <LinkBox
-              title="Aumenta la covertura de tus test en cuestión de segundos."
-              buttonText="Visitar web"
-              link="https://github.com/Codium-ai/cover-agent"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Charla en Nuclio Digital School
-            </p>
-            <LinkBox
-              title="El 15 de mayo daré una charla junto a r2d2.Coder en Nuclio Digital School"
-              buttonText="Más información"
-              link="https://dub.sh/j3qFisy"
+              link="https://elrincondeldev.substack.com/"
             />
           </section>
           <section className="flex flex-col">
@@ -64,21 +46,13 @@ export default function Home() {
               <SocialBox />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">Cover Agent</p>
-              <LinkBox
-                title="Aumenta la covertura de tus test en cuestión de segundos."
-                buttonText="Visitar web"
-                link="https://github.com/Codium-ai/cover-agent"
-              />
-            </section>
-            <section>
               <p className="satoshi-regular text-lg mb-2">
-                Charla en Nuclio Digital School
+                Mi Newsletter Semanal
               </p>
               <LinkBox
-                title="El 15 de mayo daré una charla junto a r2d2.coder en Nuclio Digital School"
-                buttonText="Más información"
-                link="https://dub.sh/j3qFisy"
+                title="Comparto mi aprendizaje y experiencia como desarrollador Full Stack, así como tips y herramientas que te harán más productivo en tu día a día."
+                buttonText="Visitar web"
+                link="https://elrincondeldev.substack.com/"
               />
             </section>
           </section>
