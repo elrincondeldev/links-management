@@ -24,6 +24,16 @@ export default function Home() {
               link="https://elrincondeldev.substack.com/"
             />
           </section>
+          <section>
+            <p className="satoshi-regular text-lg mb-2">
+              Mi Último Vídeo de YouTube
+            </p>
+            <LinkBox
+              title="4 consejos que me hicieron conseguir TRABAJO como PROGRAMADOR siendo AUTODIDACTA"
+              buttonText="Visitar web"
+              link="https://dub.sh/jK01bJn"
+            />
+          </section>
           <section className="flex flex-col">
             <p className="satoshi-regular text-lg mb-2">Otros links</p>
             <div className="flex flex-col gap-5">
@@ -53,6 +63,16 @@ export default function Home() {
                 title="Comparto mi aprendizaje y experiencia como desarrollador Full Stack, así como tips y herramientas que te harán más productivo en tu día a día."
                 buttonText="Visitar web"
                 link="https://elrincondeldev.substack.com/"
+              />
+            </section>
+            <section>
+              <p className="satoshi-regular text-lg mb-2">
+                Mi Último Vídeo de YouTube
+              </p>
+              <LinkBox
+                title="4 consejos que me hicieron conseguir TRABAJO como PROGRAMADOR siendo AUTODIDACTA"
+                buttonText="Visitar web"
+                link="https://dub.sh/jK01bJn"
               />
             </section>
           </section>
