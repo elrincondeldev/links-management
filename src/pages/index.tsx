@@ -26,6 +26,16 @@ export default function Home() {
           </section>
           <section>
             <p className="satoshi-regular text-lg mb-2">
+              Curso iniciación en programación web
+            </p>
+            <LinkBox
+              title="He podido participar en este curso de iniciación en programación web, donde aprenderás los conceptos básicos de HTML, CSS y JavaScript. ¡Totalmente gratuito!"
+              buttonText="Visitar web"
+              link="https://hubs.li/Q02C1cg50"
+            />
+          </section>
+          <section>
+            <p className="satoshi-regular text-lg mb-2">
               Mi Último Vídeo de YouTube
             </p>
             <LinkBox
@@ -63,6 +73,16 @@ export default function Home() {
                 title="Comparto mi aprendizaje y experiencia como desarrollador Full Stack, así como tips y herramientas que te harán más productivo en tu día a día."
                 buttonText="Visitar web"
                 link="https://elrincondeldev.substack.com/"
+              />
+            </section>
+            <section>
+              <p className="satoshi-regular text-lg mb-2">
+                Curso iniciación en programación web
+              </p>
+              <LinkBox
+                title="He podido participar en este curso de iniciación en programación web, donde aprenderás los conceptos básicos de HTML, CSS y JavaScript. ¡Totalmente gratuito!"
+                buttonText="Visitar web"
+                link="https://hubs.li/Q02C1cg50"
               />
             </section>
             <section>
