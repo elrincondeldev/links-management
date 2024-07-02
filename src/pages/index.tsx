@@ -25,6 +25,14 @@ export default function Home() {
             />
           </section>
           <section>
+            <p className="satoshi-regular text-lg mb-2">Daily.dev</p>
+            <LinkBox
+              title="Daily.dev es una extensión para tu navegador que te muestra las últimas noticias y artículos de desarrollo web. ¡Totalmente gratuito!"
+              buttonText="Más información"
+              link="https://daily.dev/es"
+            />
+          </section>
+          <section>
             <p className="satoshi-regular text-lg mb-2">
               Curso iniciación en programación web
             </p>
@@ -73,6 +81,14 @@ export default function Home() {
                 title="Comparto mi aprendizaje y experiencia como desarrollador Full Stack, así como tips y herramientas que te harán más productivo en tu día a día."
                 buttonText="Visitar web"
                 link="https://elrincondeldev.substack.com/"
+              />
+            </section>
+            <section>
+              <p className="satoshi-regular text-lg mb-2">Daily.dev</p>
+              <LinkBox
+                title="Daily.dev es una extensión para tu navegador que te muestra las últimas noticias y artículos de desarrollo web. ¡Totalmente gratuito!"
+                buttonText="Más información"
+                link="https://daily.dev/es"
               />
             </section>
             <section>
