@@ -12,7 +12,7 @@ function LinkBox({
   return (
     <>
       <div
-        className={`md:flex hidden flex-col items-center gap-5 h-[150px] rounded-xl p-5 bg-[#131320] border-2 border-[#E2E1E4]`}
+        className={`md:flex hidden flex-col items-center gap-5 rounded-xl p-5 bg-[#131320] border-2 border-[#E2E1E4]`}
       >
         <p className='text-xl text-center satoshi-regular'>{title}</p>
         <a
@@ -26,7 +26,7 @@ function LinkBox({
         </a>
       </div>
       <div
-        className={`flex md:hidden flex-col items-center py-3 gap-5 h-[150px] rounded-xl p-5 bg-[#131320] border-2 border-[#E2E1E4]`}
+        className={`flex md:hidden flex-col items-center py-3 gap-5 rounded-xl p-5 bg-[#131320] border-2 border-[#E2E1E4]`}
       >
         <p className='text-lg text-center satoshi-regular'>{title}</p>
         <a
