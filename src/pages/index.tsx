@@ -25,11 +25,13 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">Daily.dev</p>
+            <p className="satoshi-regular text-lg mb-2">
+              Encuesta Develop Nation
+            </p>
             <LinkBox
-              title="Daily.dev es una extensión para tu navegador que te muestra las últimas noticias y artículos de desarrollo web. ¡Totalmente gratuito!"
-              buttonText="Más información"
-              link="https://daily.dev/es"
+              title="Participa en la encuesta de desarrolladores más grande del mundo y gana premios como tarjetas de regalo, suscripciones a servicios y mucho más."
+              buttonText="Participa aquí"
+              link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
             />
           </section>
           <section>
@@ -84,11 +86,13 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">Daily.dev</p>
+              <p className="satoshi-regular text-lg mb-2">
+                Encuesta Develop Nation
+              </p>
               <LinkBox
-                title="Daily.dev es una extensión para tu navegador que te muestra las últimas noticias y artículos de desarrollo web. ¡Totalmente gratuito!"
-                buttonText="Más información"
-                link="https://daily.dev/es"
+                title="Participa en la encuesta de desarrolladores más grande del mundo y gana premios como tarjetas de regalo, suscripciones a servicios y mucho más."
+                buttonText="Participa aquí"
+                link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
               />
             </section>
             <section>
