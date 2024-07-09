@@ -36,12 +36,12 @@ export default function Home() {
           </section>
           <section>
             <p className="satoshi-regular text-lg mb-2">
-              Curso iniciación en programación web
+              Resuelvo prueba técnica en directo
             </p>
             <LinkBox
-              title="He podido participar en este curso de iniciación en programación web, donde aprenderás los conceptos básicos de HTML, CSS y JavaScript. ¡Totalmente gratuito!"
-              buttonText="Visitar web"
-              link="https://hubs.li/Q02C1cg50"
+              title="Resuelvo una prueba técnica de React para Juniors y Trainees en directo. ¡No te lo pierdas!"
+              buttonText="Inscríbete"
+              link="https://www.crowdcast.io/c/react-para-juniors"
             />
           </section>
           <section>
@@ -97,12 +97,12 @@ export default function Home() {
             </section>
             <section>
               <p className="satoshi-regular text-lg mb-2">
-                Curso iniciación en programación web
+                Resuelvo prueba técnica en directo
               </p>
               <LinkBox
-                title="He podido participar en este curso de iniciación en programación web, donde aprenderás los conceptos básicos de HTML, CSS y JavaScript. ¡Totalmente gratuito!"
-                buttonText="Visitar web"
-                link="https://hubs.li/Q02C1cg50"
+                title="Resuelvo una prueba técnica de React para Juniors y Trainees en directo. ¡No te lo pierdas!"
+                buttonText="Inscríbete"
+                link="https://www.crowdcast.io/c/react-para-juniors"
               />
             </section>
             <section>
