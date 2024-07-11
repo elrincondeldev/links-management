@@ -25,13 +25,11 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Encuesta Develop Nation
-            </p>
+            <p className="satoshi-regular text-lg mb-2">OBSBOT Tiny 2 Lite</p>
             <LinkBox
-              title="Participa en la encuesta de desarrolladores más grande del mundo y gana premios como tarjetas de regalo, suscripciones a servicios y mucho más."
-              buttonText="Participa aquí"
-              link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
+              title="OBSBOT Tiny 2 Lite"
+              buttonText="Más información"
+              link="https://www.obsbot.com/store/products/tiny-2-lite?rfsn=7794677.8ee4df&utm_source=refersion&utm_medium=affiliate&utm_campaign=7794677.8ee4df"
             />
           </section>
           <section>
@@ -86,13 +84,11 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">
-                Encuesta Develop Nation
-              </p>
+              <p className="satoshi-regular text-lg mb-2">OBSBOT Tiny 2 Lite</p>
               <LinkBox
-                title="Participa en la encuesta de desarrolladores más grande del mundo y gana premios como tarjetas de regalo, suscripciones a servicios y mucho más."
-                buttonText="Participa aquí"
-                link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
+                title="OBSBOT Tiny 2 Lite"
+                buttonText="Más información"
+                link="https://www.obsbot.com/store/products/tiny-2-lite?rfsn=7794677.8ee4df&utm_source=refersion&utm_medium=affiliate&utm_campaign=7794677.8ee4df"
               />
             </section>
             <section>
