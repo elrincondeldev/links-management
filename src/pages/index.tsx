@@ -25,31 +25,13 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">OBSBOT Tiny 2 Lite</p>
-            <LinkBox
-              title="OBSBOT Tiny 2 Lite"
-              buttonText="Más información"
-              link="https://www.obsbot.com/store/products/tiny-2-lite?rfsn=7794677.8ee4df&utm_source=refersion&utm_medium=affiliate&utm_campaign=7794677.8ee4df"
-            />
-          </section>
-          <section>
             <p className="satoshi-regular text-lg mb-2">
-              Resuelvo prueba técnica en directo
+              Apuntes Refactoring UI
             </p>
             <LinkBox
-              title="Resuelvo una prueba técnica de React para Juniors y Trainees en directo. ¡No te lo pierdas!"
-              buttonText="Inscríbete"
-              link="https://www.crowdcast.io/c/react-para-juniors"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Mi Último Vídeo de YouTube
-            </p>
-            <LinkBox
-              title="4 consejos que me hicieron conseguir TRABAJO como PROGRAMADOR siendo AUTODIDACTA"
-              buttonText="Visitar web"
-              link="https://dub.sh/jK01bJn"
+              title="Apuntes del libro Refactoring UI de Adam Wathan y Steve Schoger"
+              buttonText="Leer"
+              link="https://github.com/elrincondeldev/refactoring-ui-notes"
             />
           </section>
           <section className="flex flex-col">
@@ -84,31 +66,13 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">OBSBOT Tiny 2 Lite</p>
-              <LinkBox
-                title="OBSBOT Tiny 2 Lite"
-                buttonText="Más información"
-                link="https://www.obsbot.com/store/products/tiny-2-lite?rfsn=7794677.8ee4df&utm_source=refersion&utm_medium=affiliate&utm_campaign=7794677.8ee4df"
-              />
-            </section>
-            <section>
               <p className="satoshi-regular text-lg mb-2">
-                Resuelvo prueba técnica en directo
+                Apuntes Refactoring UI
               </p>
               <LinkBox
-                title="Resuelvo una prueba técnica de React para Juniors y Trainees en directo. ¡No te lo pierdas!"
-                buttonText="Inscríbete"
-                link="https://www.crowdcast.io/c/react-para-juniors"
-              />
-            </section>
-            <section>
-              <p className="satoshi-regular text-lg mb-2">
-                Mi Último Vídeo de YouTube
-              </p>
-              <LinkBox
-                title="4 consejos que me hicieron conseguir TRABAJO como PROGRAMADOR siendo AUTODIDACTA"
-                buttonText="Visitar web"
-                link="https://dub.sh/jK01bJn"
+                title="Apuntes del libro Refactoring UI de Adam Wathan y Steve Schoger"
+                buttonText="Leer"
+                link="https://github.com/elrincondeldev/refactoring-ui-notes"
               />
             </section>
           </section>
