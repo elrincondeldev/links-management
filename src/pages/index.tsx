@@ -25,13 +25,11 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Apuntes Refactoring UI
-            </p>
+            <p className="satoshi-regular text-lg mb-2">Hinomi X1</p>
             <LinkBox
-              title="Apuntes del libro Refactoring UI de Adam Wathan y Steve Schoger"
-              buttonText="Leer"
-              link="https://github.com/elrincondeldev/refactoring-ui-notes"
+              title="Mejor silla para trabajar desde casa"
+              buttonText="Más información"
+              link="https://eu.hinomi.co/jose"
             />
           </section>
           <section className="flex flex-col">
@@ -66,13 +64,11 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">
-                Apuntes Refactoring UI
-              </p>
+              <p className="satoshi-regular text-lg mb-2">Hinomi X1</p>
               <LinkBox
-                title="Apuntes del libro Refactoring UI de Adam Wathan y Steve Schoger"
-                buttonText="Leer"
-                link="https://github.com/elrincondeldev/refactoring-ui-notes"
+                title="Mejor silla para trabajar desde casa"
+                buttonText="Más información"
+                link="https://eu.hinomi.co/jose"
               />
             </section>
           </section>
