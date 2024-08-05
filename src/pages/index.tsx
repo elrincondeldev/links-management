@@ -25,11 +25,11 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">Hinomi X1</p>
+            <p className="satoshi-regular text-lg mb-2">UPDF</p>
             <LinkBox
-              title="Mejor silla para trabajar desde casa"
+              title="Editor de PDFs con IA"
               buttonText="Más información"
-              link="https://eu.hinomi.co/jose"
+              link="https://clck.ru/3C6UyV"
             />
           </section>
           <section className="flex flex-col">
@@ -64,11 +64,11 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">Hinomi X1</p>
+              <p className="satoshi-regular text-lg mb-2">UPDF</p>
               <LinkBox
-                title="Mejor silla para trabajar desde casa"
+                title="Editor de PDFs con IA"
                 buttonText="Más información"
-                link="https://eu.hinomi.co/jose"
+                link="https://clck.ru/3C6UyV"
               />
             </section>
           </section>
