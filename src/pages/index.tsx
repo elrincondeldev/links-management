@@ -25,6 +25,16 @@ export default function Home() {
             />
           </section>
           <section>
+            <p className="satoshi-regular text-lg mb-2">
+              Nuclio Digital School Full Stack
+            </p>
+            <LinkBox
+              title="Máster Full Stack Online/presencial"
+              buttonText="Más información"
+              link="https://hubs.li/Q02KVR5B0"
+            />
+          </section>
+          <section>
             <p className="satoshi-regular text-lg mb-2">UPDF</p>
             <LinkBox
               title="Editor de PDFs con IA"
@@ -61,6 +71,16 @@ export default function Home() {
                 title="Comparto mi aprendizaje y experiencia como desarrollador Full Stack, así como tips y herramientas que te harán más productivo en tu día a día."
                 buttonText="Visitar web"
                 link="https://elrincondeldev.substack.com/"
+              />
+            </section>
+            <section>
+              <p className="satoshi-regular text-lg mb-2">
+                Nuclio Digital School Full Stack
+              </p>
+              <LinkBox
+                title="Máster Full Stack Online/presencial"
+                buttonText="Más información"
+                link="https://hubs.li/Q02KVR5B0"
               />
             </section>
             <section>
