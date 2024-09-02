@@ -35,11 +35,13 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">UPDF</p>
+            <p className="satoshi-regular text-lg mb-2">
+              Dr.Fone de Wondershare
+            </p>
             <LinkBox
-              title="Editor de PDFs con IA"
+              title="Herramienta para gestionar por completo tu móvil"
               buttonText="Más información"
-              link="https://clck.ru/3C6UyV"
+              link="https://bit.ly/4dNYXwQ"
             />
           </section>
           <section className="flex flex-col">
@@ -84,11 +86,13 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">UPDF</p>
+              <p className="satoshi-regular text-lg mb-2">
+                Dr.Fone de Wondershare
+              </p>
               <LinkBox
-                title="Editor de PDFs con IA"
+                title="Herramienta para gestionar por completo tu móvil"
                 buttonText="Más información"
-                link="https://clck.ru/3C6UyV"
+                link="https://bit.ly/4dNYXwQ"
               />
             </section>
           </section>
