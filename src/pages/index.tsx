@@ -25,13 +25,11 @@ export default function Home() {
             />
           </section>
           <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Nuclio Digital School Full Stack
-            </p>
+            <p className="satoshi-regular text-lg mb-2">Logitech Work Days</p>
             <LinkBox
-              title="Máster Full Stack Online/presencial"
+              title="Los mayores descuentos en productos Logitech"
               buttonText="Más información"
-              link="https://hubs.li/Q02KVR5B0"
+              link="https://www.amazon.es/stores/page/E90C1BCD-58B5-4D56-98DF-3E01C821F75F?channel=LOGIWORK"
             />
           </section>
           <section>
@@ -76,13 +74,11 @@ export default function Home() {
               />
             </section>
             <section>
-              <p className="satoshi-regular text-lg mb-2">
-                Nuclio Digital School Full Stack
-              </p>
+              <p className="satoshi-regular text-lg mb-2">Logitech Work Days</p>
               <LinkBox
-                title="Máster Full Stack Online/presencial"
+                title="Los mayores descuentos en productos Logitech"
                 buttonText="Más información"
-                link="https://hubs.li/Q02KVR5B0"
+                link="https://www.amazon.es/stores/page/E90C1BCD-58B5-4D56-98DF-3E01C821F75F?channel=LOGIWORK"
               />
             </section>
             <section>
