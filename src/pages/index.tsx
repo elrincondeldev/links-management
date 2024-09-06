@@ -25,21 +25,19 @@ export default function Home() {
             />
           </section>
           <section>
+            <p className="satoshi-regular text-lg mb-2">Scrintal</p>
+            <LinkBox
+              title="Mi herramienta favorita para organizrme"
+              buttonText="Más información"
+              link="https://scrintal.com/"
+            />
+          </section>
+          <section>
             <p className="satoshi-regular text-lg mb-2">Logitech Work Days</p>
             <LinkBox
               title="Los mayores descuentos en productos Logitech"
               buttonText="Más información"
               link="https://www.amazon.es/stores/page/E90C1BCD-58B5-4D56-98DF-3E01C821F75F?channel=LOGIWORK"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">
-              Dr.Fone de Wondershare
-            </p>
-            <LinkBox
-              title="Herramienta para gestionar por completo tu móvil"
-              buttonText="Más información"
-              link="https://bit.ly/4dNYXwQ"
             />
           </section>
           <section className="flex flex-col">
@@ -74,21 +72,19 @@ export default function Home() {
               />
             </section>
             <section>
+              <p className="satoshi-regular text-lg mb-2">Scrintal</p>
+              <LinkBox
+                title="Mi herramienta favorita para organizrme"
+                buttonText="Más información"
+                link="https://scrintal.com/"
+              />
+            </section>
+            <section>
               <p className="satoshi-regular text-lg mb-2">Logitech Work Days</p>
               <LinkBox
                 title="Los mayores descuentos en productos Logitech"
                 buttonText="Más información"
                 link="https://www.amazon.es/stores/page/E90C1BCD-58B5-4D56-98DF-3E01C821F75F?channel=LOGIWORK"
-              />
-            </section>
-            <section>
-              <p className="satoshi-regular text-lg mb-2">
-                Dr.Fone de Wondershare
-              </p>
-              <LinkBox
-                title="Herramienta para gestionar por completo tu móvil"
-                buttonText="Más información"
-                link="https://bit.ly/4dNYXwQ"
               />
             </section>
           </section>
