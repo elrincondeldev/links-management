@@ -16,12 +16,12 @@ export default function Home() {
           </section>
           <section>
             <p className="satoshi-regular text-lg mb-2">
-              Mi Newsletter Semanal
+              Master Full Stack Nuclio Digital School
             </p>
             <LinkBox
-              title="Comparto mi aprendizaje y experiencia como desarrollador Full Stack, así como tips y herramientas que te harán más productivo en tu día a día."
+              title="Nuclio Digital School"
               buttonText="Visitar web"
-              link="https://elrincondeldev.substack.com/"
+              link="https://hubs.li/Q02KVR5B0"
             />
           </section>
           <section>
@@ -63,12 +63,12 @@ export default function Home() {
             </section>
             <section>
               <p className="satoshi-regular text-lg mb-2">
-                Mi Newsletter Semanal
+                Master Full Stack Nuclio Digital School
               </p>
               <LinkBox
-                title="Comparto mi aprendizaje y experiencia como desarrollador Full Stack, así como tips y herramientas que te harán más productivo en tu día a día."
+                title="Nuclio Digital School"
                 buttonText="Visitar web"
-                link="https://elrincondeldev.substack.com/"
+                link="https://hubs.li/Q02KVR5B0"
               />
             </section>
             <section>
