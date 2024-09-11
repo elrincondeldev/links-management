@@ -16,20 +16,22 @@ export default function Home() {
           </section>
           <section>
             <p className="satoshi-regular text-lg mb-2">
+              Mi Experiencia Siendo Freelance
+            </p>
+            <LinkBox
+              title="Mi Experiencia Siendo Freelance"
+              buttonText="Ver vídeo"
+              link="https://shorturl.at/zAg9u"
+            />
+          </section>
+          <section>
+            <p className="satoshi-regular text-lg mb-2">
               Master Full Stack Nuclio Digital School
             </p>
             <LinkBox
               title="Nuclio Digital School"
               buttonText="Visitar web"
               link="https://hubs.li/Q02KVR5B0"
-            />
-          </section>
-          <section>
-            <p className="satoshi-regular text-lg mb-2">Scrintal</p>
-            <LinkBox
-              title="Mi herramienta favorita para organizrme"
-              buttonText="Más información"
-              link="https://scrintal.com/"
             />
           </section>
           <section>
@@ -63,20 +65,22 @@ export default function Home() {
             </section>
             <section>
               <p className="satoshi-regular text-lg mb-2">
+                Mi Experiencia Siendo Freelance
+              </p>
+              <LinkBox
+                title="Mi Experiencia Siendo Freelance"
+                buttonText="Ver vídeo"
+                link="https://shorturl.at/zAg9u"
+              />
+            </section>
+            <section>
+              <p className="satoshi-regular text-lg mb-2">
                 Master Full Stack Nuclio Digital School
               </p>
               <LinkBox
                 title="Nuclio Digital School"
                 buttonText="Visitar web"
                 link="https://hubs.li/Q02KVR5B0"
-              />
-            </section>
-            <section>
-              <p className="satoshi-regular text-lg mb-2">Scrintal</p>
-              <LinkBox
-                title="Mi herramienta favorita para organizrme"
-                buttonText="Más información"
-                link="https://scrintal.com/"
               />
             </section>
             <section>
