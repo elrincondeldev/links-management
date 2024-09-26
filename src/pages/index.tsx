@@ -32,30 +32,12 @@ export default function Home() {
 
           <motion.section variants={fadeInUp}>
             <p className="satoshi-regular text-lg mb-2">
-              Mi Experiencia Siendo Freelance
+              Encuenta Global Developer Nation
             </p>
             <LinkBox
-              title="Mi Experiencia Siendo Freelance"
-              buttonText="Ver vídeo"
-              link="https://shorturl.at/zAg9u"
-            />
-          </motion.section>
-
-          <motion.section variants={fadeInUp}>
-            <p className="satoshi-regular text-lg mb-2">KumoSpace</p>
-            <LinkBox
-              title="KumoSpace, aumenta la productividad en tu equipo de trabajo"
-              buttonText="Visitar web"
-              link="https://www.kumospace.com/"
-            />
-          </motion.section>
-
-          <motion.section variants={fadeInUp}>
-            <p className="satoshi-regular text-lg mb-2">Logitech Work Days</p>
-            <LinkBox
-              title="Los mayores descuentos en productos Logitech"
-              buttonText="Más información"
-              link="https://www.amazon.es/stores/page/E90C1BCD-58B5-4D56-98DF-3E01C821F75F?channel=LOGIWORK"
+              title="Gana premios por tan solo contestar unas preguntas en 15 minutos."
+              buttonText="Completa la encuesta"
+              link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
             />
           </motion.section>
 
@@ -88,30 +70,12 @@ export default function Home() {
 
             <motion.section variants={fadeInUp}>
               <p className="satoshi-regular text-lg mb-2">
-                Mi Experiencia Siendo Freelance
+                Encuenta Global Developer Nation
               </p>
               <LinkBox
-                title="Mi Experiencia Siendo Freelance"
-                buttonText="Ver vídeo"
-                link="https://shorturl.at/zAg9u"
-              />
-            </motion.section>
-
-            <motion.section variants={fadeInUp}>
-              <p className="satoshi-regular text-lg mb-2">KumoSpace</p>
-              <LinkBox
-                title="KumoSpace, aumenta la productividad en tu equipo de trabajo"
-                buttonText="Visitar web"
-                link="https://www.kumospace.com/"
-              />
-            </motion.section>
-
-            <motion.section variants={fadeInUp}>
-              <p className="satoshi-regular text-lg mb-2">Logitech Work Days</p>
-              <LinkBox
-                title="Los mayores descuentos en productos Logitech"
-                buttonText="Más información"
-                link="https://www.amazon.es/stores/page/E90C1BCD-58B5-4D56-98DF-3E01C821F75F?channel=LOGIWORK"
+                title="Gana premios por tan solo contestar unas preguntas en 15 minutos."
+                buttonText="Completa la encuesta"
+                link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
               />
             </motion.section>
           </section>
