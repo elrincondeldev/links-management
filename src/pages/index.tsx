@@ -41,6 +41,15 @@ export default function Home() {
             />
           </motion.section>
 
+          <motion.section variants={fadeInUp}>
+            <p className="satoshi-regular text-lg mb-2">Pure Code AI</p>
+            <LinkBox
+              title="Genera componentes mediante prompts."
+              buttonText="Link a la herramienta"
+              link="https://purecode.ai/"
+            />
+          </motion.section>
+
           <motion.section variants={fadeInUp} className="flex flex-col">
             <p className="satoshi-regular text-lg mb-2">Otros links</p>
             <div className="flex flex-col gap-5">
@@ -76,6 +85,15 @@ export default function Home() {
                 title="Gana premios por tan solo contestar unas preguntas en 15 minutos."
                 buttonText="Completa la encuesta"
                 link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
+              />
+            </motion.section>
+
+            <motion.section variants={fadeInUp}>
+              <p className="satoshi-regular text-lg mb-2">Pure Code AI</p>
+              <LinkBox
+                title="Genera componentes mediante prompts."
+                buttonText="Link a la herramienta"
+                link="https://purecode.ai/"
               />
             </motion.section>
           </section>
