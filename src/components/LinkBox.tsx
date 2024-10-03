@@ -7,7 +7,7 @@ function LinkBox({
 }: {
   title: string;
   buttonText: string;
-  link: string;
+  link: string | undefined;
 }) {
   return (
     <>

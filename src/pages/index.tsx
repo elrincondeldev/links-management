@@ -3,19 +3,17 @@ import SocialBox from "@/components/SocialBox";
 import LinkBox from "@/components/LinkBox";
 import SmallLinkBox from "@/components/SmallLinkBox";
 import Footer from "@/components/Footer";
-import { motion } from "framer-motion"; // Importamos framer-motion
+import { motion } from "framer-motion";
 
 export default function Home() {
-  // Definimos las variantes de animación
   const fadeInUp = {
-    initial: { opacity: 0, y: 20 }, // Comienza invisible y desplazado hacia abajo
-    animate: { opacity: 1, y: 0, transition: { duration: 0.6 } }, // Se vuelve visible y sube con duración
-    exit: { opacity: 0, y: 20, transition: { duration: 0.4 } }, // Se desvanece y baja al salir
+    initial: { opacity: 0, y: 20 },
+    animate: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+    exit: { opacity: 0, y: 20, transition: { duration: 0.4 } },
   };
 
   return (
     <>
-      {/* Versión para pantallas medianas o grandes */}
       <div className="md:flex hidden flex-col m-auto gap-10 max-w-[700px] text-white min-h-screen">
         <motion.main
           className="md:flex flex-col mx-auto gap-10 max-w-[700px] text-white"
@@ -24,20 +22,17 @@ export default function Home() {
           exit="exit"
         >
           <NavBar />
-          {/* Animaciones para cada sección */}
           <motion.section variants={fadeInUp}>
             <p className="satoshi-regular text-lg mb-2">Social Links</p>
             <SocialBox />
           </motion.section>
 
           <motion.section variants={fadeInUp}>
-            <p className="satoshi-regular text-lg mb-2">
-              Encuenta Global Developer Nation
-            </p>
+            <p className="satoshi-regular text-lg mb-2">Magic Loops</p>
             <LinkBox
-              title="Gana premios por tan solo contestar unas preguntas en 15 minutos."
-              buttonText="Completa la encuesta"
-              link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
+              title="Automaitza tu día con Magic Loops."
+              buttonText="Pruebalo aquí"
+              link="https://magicloops.dev/"
             />
           </motion.section>
 
@@ -62,7 +57,6 @@ export default function Home() {
         </motion.main>
       </div>
 
-      {/* Versión para pantallas pequeñas */}
       <div className="flex md:hidden flex-col px-5 text-white min-h-screen">
         <motion.main
           className="flex md:hidden flex-col gap-10"
@@ -78,13 +72,11 @@ export default function Home() {
             </motion.section>
 
             <motion.section variants={fadeInUp}>
-              <p className="satoshi-regular text-lg mb-2">
-                Encuenta Global Developer Nation
-              </p>
+              <p className="satoshi-regular text-lg mb-2">Magic Loops</p>
               <LinkBox
-                title="Gana premios por tan solo contestar unas preguntas en 15 minutos."
-                buttonText="Completa la encuesta"
-                link="https://developereconomics.net/?member_id=elrincondeldev&lang=es&locale=es"
+                title="Automaitza tu día con Magic Loops."
+                buttonText="Pruebalo aquí"
+                link="https://magicloops.dev/"
               />
             </motion.section>
 
