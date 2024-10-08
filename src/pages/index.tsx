@@ -37,11 +37,13 @@ export default function Home() {
           </motion.section>
 
           <motion.section variants={fadeInUp}>
-            <p className="satoshi-regular text-lg mb-2">Pure Code AI</p>
+            <p className="satoshi-regular text-lg mb-2">
+              Bootcamp Full Stack 4Geeks Academy
+            </p>
             <LinkBox
-              title="Genera componentes mediante prompts."
+              title="Bootcamp de desarrollo Full Stack."
               buttonText="Link a la herramienta"
-              link="https://purecode.ai/"
+              link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
             />
           </motion.section>
 
@@ -81,11 +83,13 @@ export default function Home() {
             </motion.section>
 
             <motion.section variants={fadeInUp}>
-              <p className="satoshi-regular text-lg mb-2">Pure Code AI</p>
+              <p className="satoshi-regular text-lg mb-2">
+                Bootcamp Full Stack 4Geeks Academy
+              </p>
               <LinkBox
-                title="Genera componentes mediante prompts."
+                title="Bootcamp de desarrollo Full Stack."
                 buttonText="Link a la herramienta"
-                link="https://purecode.ai/"
+                link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
               />
             </motion.section>
           </section>
