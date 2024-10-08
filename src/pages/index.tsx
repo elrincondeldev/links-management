@@ -42,7 +42,7 @@ export default function Home() {
             </p>
             <LinkBox
               title="Bootcamp de desarrollo Full Stack."
-              buttonText="Link a la herramienta"
+              buttonText="Más información"
               link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
             />
           </motion.section>
@@ -88,7 +88,7 @@ export default function Home() {
               </p>
               <LinkBox
                 title="Bootcamp de desarrollo Full Stack."
-                buttonText="Link a la herramienta"
+                buttonText="Más información"
                 link="https://4geeksacademy.com/es/inicio?utm_source=influencers&utm_medium=referral&utm_campaign=elrincondeldev&utm_location=madrid-spain&utm_content=ig"
               />
             </motion.section>
